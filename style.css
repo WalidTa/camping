@@ -1,0 +1,150 @@
+body {
+    font: 14px sans-serif;
+    background-color: gray;
+    text-align: center;
+   
+
+}
+nav {
+    text-align: center;
+    font-size: large;
+}
+
+.informatie {
+    column-count: 3;
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .column {
+    float: center;
+    width: 50%;
+    text-align: center;
+    font-size: large;
+   
+    
+}
+
+.slides {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h2, h3 {
+    color: rgb(13, 4, 143);
+    text-align: center;
+    font-size: xx-large;
+    padding: 40px;
+}
+p {
+    font-size: x-large;
+    text-align: center;
+
+    
+}
+img {
+    border: 5px solid #555;
+}
+
+form {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    background: rgba(196, 195, 209, 0.4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+}
+
+a {
+    font-size: large;
+}
+
+
+  
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid rgb(13, 4, 143);
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+
+
+
+
+.login-block button:hover {
+    background: rgb(13, 4, 143);
+}
+
+#section1
+{
+    border-top: 3px solid rgb(13, 4, 143);
+    width: 100%;
+    height: 55%;
+    margin: 0 auto;
+    padding:0px;
+    display:inline-block;
+    *display:inline;zoom:1;
+    margin:0px;outline:none;
+    
+    
+}
+
+
+#mainsection
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+
+
+
+}
+
+.tableActiviteit{
+    width: 100%;
+    border: 2px solid rgb(13, 4, 143);
+    border-collapse: collapse;
+
+}
+
+.reserveringOverzicht{
+    width: 100%;
+    border: 2px solid rgb(13, 4, 143);
+    border-collapse: collapse;
+
+}
